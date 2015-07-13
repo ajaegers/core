@@ -154,6 +154,7 @@ module.exports = function(config) {
 	if (testCore) {
 		// core tests
 		files.push(corePath + 'tests/specs/*.js');
+		files.push(corePath + 'tests/specs/**/*.js');
 	}
 
 	function addApp(app) {
